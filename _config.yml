@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Abhinav / networking Blogs"
 title_separator          : "-"
 name                     : &name "Abhinav"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Networking & Security Research Blog"
 url                      : https://abhinavkuamr.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Abhinav kumar"
   pronouns         : # example: "she/her"  
-  bio              : "I love netwrorking & security research"
+  bio              : "I love networking & security research"
   location         : "Dublin, Ireland (currently)"
   #email            : "ady.abhinav.ak@gmail.com" 
 
@@ -139,6 +139,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  posts:
+    output: true
+    permalink: /posts/:year/:month/:day/:title/
 
 
 # These settings control how pages and collections are included in the site
